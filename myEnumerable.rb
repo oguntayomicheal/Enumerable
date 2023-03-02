@@ -4,7 +4,4 @@ module MyEnumerable
     each { |e| result = false unless yield e }
     result
   end
-
-
-  
 end
